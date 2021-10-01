@@ -113,7 +113,6 @@
     float: left;
     width: 50%;
    
-   
   }
   .leftcolumn .card{
     background-color: rgb(247, 200, 208);
@@ -154,14 +153,17 @@
     text-align:center;
     font-style:italic;
     color:rgb(112, 92, 112);
-    margin: 1.5em;
+    
   }
   .card a{ 
     color:rgb(94, 81, 81);  
     font-size: 1.5em;
     font-family: "Monaco","Lucida Console", "Courier New", monospace;
-    margin: 1.5em;
+    margin-left: 1.5em;
     text-align:right; 
+}
+.bottomimg a{
+    margin-left: 0em;
 }
 .rightimg p{
    margin-left: 1em;
@@ -170,6 +172,7 @@
     
     color:rgb(94, 81, 81); 
     font-size: 1em;
+    margin: 1.5em;
     font-family: "Monaco","Lucida Console", "Courier New", monospace;
 }
 
