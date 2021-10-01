@@ -1,25 +1,93 @@
 <html>
-    <head>
-        <header></header>
-        <title>Food Lover</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="header">
+        <h1>Food Lover</h1>
         <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <div class="logo">
-            <img src="food logo-2.jpg" />
-        </div> </br>
-        <label> Search </label>
-        <input type="text" placeholder="Search Food Lover">
-        <h1>Recipes</h1>
-        <ul class="recipes">
-         <li><a href="Recipies/Everyday Cooking.html">Everyday Cooking</a></li>
-         <li><a href="Recipies/Breakfast and Brunch.html">Breakfast and Brunch</a></li>
-         <li><a href="Recipies/Desserts.html">Desserts</a></li>
-         <li><a href="Recipies/Main Dishes.html">Main Dishes</a></li>
-        </ul>
-        
+        <p>Find and share everyday cooking inspiration on FoodLover.</p>
+    </div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Recipes</a>
+            <div class="dropdown-content">
+              <a href="Recipies/Everyday Cooking.html">Everyday Cooking</a>
+              <a href="Recipies/Breakfast and Brunch.html">Breakfast and Brunch</a>
+              <a href="Recipies/Desserts.html">Desserts</a>
+              <a href="Recipies/Drinks.html">Drinks</a>
+            </div>
+          </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Buying Guides</a>
+          <div class="dropdown-content">
+            <a href="Guides/equipment.html">Equipment Guides</a>
+            <a href="Guides/kit-items.html">Kitchen Items</a>
+            <a href="Guides/ingredients.html">Ingredients</a>
+          </div>
+        </li>
+        <li class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </li>
+      </ul>
 
-    </body>
+
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Mediterranean Baked Sweet Potatoes</h2>
+            <div class="foodimg" style="height:500px;"><image src="baked-potatoes.jpeg" style="width:100%"/></div>
+            <p>This colorful dish, which makes a great lunch or dinner, features sweet potatoes drizzled with a garlic herb sauce and topped high with cherry tomatoes and chopped parsley. </p>
+            <a href="https://minimalistbaker.com/mediterranean-baked-sweet-potatoes/">Get the recipe for Mediterranean Baked Sweet Potatoes from The Minimalist Baker.</a>
+          </div>
+          <div class="card">
+            <h2>Gluten Free Desserts</h2>
+            <div class="foodimg" style="height:486px;"><image src="glutenfree-desserts.jpeg" style="width:100%"/></div>
+            <a href="https://www.simplyrecipes.com/delectable-dessert-recipes-you-would-never-guess-were-gluten-free-5195915">12 Delectable Dessert Recipes You Would Never Guess are Gluten-Free</a>
+          </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>Family Dinners to Welcome Fall</h2>
+            <dd class="rightimg" style="height:500px;" ><image src="veggie-spaghetti.jpeg" style="width:100%"/>
+                <a href="https://www.inspiredtaste.net/38662/veggie-spaghetti-recipe/">Veggie Spaghetti</a>
+                <p>This spaghetti recipe, which is loaded with tons of vegetables like zucchini and yellow squash, will totally change the way you prepare pasta going forward. </p>
+               
+            </dd>
+
+                <dd class="rightimg"  style="height:500px;" ><img src="pumpkin-pad.jpeg" style="width:100%" />
+                <a href="https://www.eatthis.com/pumpkin-pad-thai-recipe/">Pumpkin Pad Thai</a>
+                <p>Pumpkin, which may be most associated with pies and Halloween decorations, makes a welcome appearance in this hearty pumpkin pad thai recipe. </p> 
+            </dd>  
+          </div>
+          <div class="card">
+           
+            <h2>16 Apple Desserts to Make This Fall</h2>
+            <dd class="bottomimg" style="height:660px;"><img src="apple.webp" style="width:100%" />
+                <p>Apple pie is a given, but don't stop there! If you're bursting with apples try apple cakes, caramel apples, slab pies, apple turnovers, tarts, and more!
+                </p> 
+                <p>
+                    Just hop on over to our  <a href="https://www.simplyrecipes.com/16-apple-desserts-5198262">Fall Guide to the Best Baking Apples</a>. It will tell you everything you need to know about popular apple flavor profiles and how best to use them.
+                </p>
+            </dd>  
+             
+            
+          </div>
+          
+        </div>
+      </div>
+
+      
+      <div class="footer">
+        <div class="card">
+            <h3>About FoodLover</h3>
+            <p >About us</p>
+            <p>FAQ</p>
+            <p style="height:50px;">Contact us</p>
+          </div>
+      </div>
+
 
 
 </html>
